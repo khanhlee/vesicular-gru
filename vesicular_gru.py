@@ -22,9 +22,9 @@ val_negative_dir = "membrane/cv/"
 
 file_model = "model/test.model"
 ######## GLOBAL HYPER PARAMETERS ###############
-CONV1D_FEATURE_SIZE = 200 # So bo loc
-CONV1D_KERNEL_SIZE = 3 # Kich thuoc bo loc
-AVGPOOL1D_KERNEL_SIZE = 3 # Kich thuoc bo loc trung binh
+CONV1D_FEATURE_SIZE = 200
+CONV1D_KERNEL_SIZE = 3
+AVGPOOL1D_KERNEL_SIZE = 3
 GRU_HIDDEN_SIZE = 200
 FULLY_CONNECTED_LAYER_SIZE = 32
 
